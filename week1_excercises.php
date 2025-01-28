@@ -2,6 +2,9 @@
 <html lang="sv">
 <head>
     <meta charset="UTF-8">
+
+    <meta http-equiv="refresh" content="5">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PHP Grundläggande Övningar</title>
     <style>
@@ -18,12 +21,42 @@
     </style>
 </head>
 <body>
-    <h1>PHP Grundläggande Övningar</h1>
+
+<!--
+        Variabler i PHP:
+        $name = "Ludvig;
+        $number = 10;
+
+        echo $name; //Skriver ut Ludvig
+        echo "Mitt namn är $name; // Mitt namn är Ludvig
+        
+        For-loop
+        for ($i = 1; $i <= 10; $i++) {} 
+
+        Array
+        $cars = array("Volvo", "BMW", "Toyota"); 
+        $cars[0] = "Volvo";
+        $cars[1] = "BMW";
+        $cars[2] = "Toyota";
+
+        Foreach-loop
+        foreach ($cars as $x) { 
+        echo "$x <br>";
+        }
+
+        Associativ array (kallas för key value pair. Heter Dictionary i C#)
+        $car = array("brand"=>"Ford", "model"=>"Mustang", "year"=>1964);
+        foreach ($car as $x => $y) {
+        echo "$x: $y <br>";
+        }
+-->
+
+    <h1>PHP Grundläggande Övningar<h1>
 
     <!-- 1. Skriv ett PHP-skript som skriver ut "Hello, World!" inuti en <h1>-tagg. -->
     <h2>Övning nummer 1</h2>
     <?php
-
+    echo "Hello world!";
     ?>
 
     <!-- 2. Skapa ett PHP-skript som definierar en variabel $name med ditt namn och skriver ut "Hej, [ditt namn]!" inuti en <p>-tagg. -->
@@ -101,7 +134,6 @@
         <td>30</td>
     </tr>
 </table>
-
 
     <!-- 10. Skapa två PHP-filer: -->
     <!-- - header.php: Innehåller en enkel <header> med en titel. -->
