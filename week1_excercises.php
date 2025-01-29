@@ -181,5 +181,10 @@
         ?>
     </table>
 
+    <h2>Övning nummer 14</h2>
+    <!-- 14. Skapa en miniräknare med PHP . -->
+    <!-- Man ska kunna mata in två tal, och sedan välja plus, minus, gånger eller delat med. -->
+    <!-- HTML-forms ska användas -->
+
 </body>
 </html>
