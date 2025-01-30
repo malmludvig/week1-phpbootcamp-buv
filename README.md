@@ -8,5 +8,5 @@ Rekommendation att ladda ner XAMPP: https://www.apachefriends.org/. Kör install
 ## Kom igång 🛠️
 1. Klona eller ladda ner detta repo till någon mapp inuti "C:\xampp\htdocs\":
    ```bash
-   git clone https://github.com/ditt-användarnamn/php-ovningar.git
+   git clone https://github.com/malmludvig/week1-phpbootcamp-buv.git
    
